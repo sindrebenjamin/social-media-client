@@ -6,7 +6,7 @@
     "extends": "eslint:recommended",
     "overrides": [
         {
-          "files": ["**/*.cy.js"],
+          "files": ["**/*.cy.js", "./cypress/support/commands.js", "cypress.config.js"],
           "env": { "cypress/globals": true },
           "plugins": ["cypress"],
           "extends": ["plugin:cypress/recommended"],
@@ -20,10 +20,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    // "globals": {
-    //     "test": "readonly",
-    //     "expect": "readonly"
-    //   },
+
     "rules": {
     }
 }
