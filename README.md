@@ -14,5 +14,5 @@ npm run test-unit
 ```
 3. Run E2E tests
 ```
-npm run cypress run
+npm run cy:run
 ```
