@@ -1,6 +1,6 @@
 {
   "name": "css-frameworks-ca",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Test",
   "type": "module",
   "main": "index.js",
@@ -10,9 +10,10 @@
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
     "prepare": "husky install",
-    "test": "npm run test-unit",
+    "test": "npm run test-unit && cy:run",
     "test-unit": "jest",
-    "test-e2e": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "keywords": [],
   "author": "Noroff",
