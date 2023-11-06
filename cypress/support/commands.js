@@ -1,7 +1,10 @@
 //import 'cypress-localstorage-commands'
 
 Cypress.Commands.add("login", () => {
-  cy.visit("http://127.0.0.1:64578").wait(1000).get(".login-btn").click();
+  cy.visit("https://sindrebenjamin.github.io/social-media-client")
+    .wait(1000)
+    .get(".login-btn")
+    .click();
 
   cy.get("#loginEmail")
     .invoke("val", "sindbert99@stud.noroff.no")
