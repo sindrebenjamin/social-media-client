@@ -1,6 +1,9 @@
-describe("http://127.0.0.1:58540", () => {
+describe("https://sindrebenjamin.github.io/social-media-client", () => {
   it("can't login with invalid credentials and is shown an error message", () => {
-    cy.visit("http://127.0.0.1:64578").wait(1000).get(".login-btn").click();
+    cy.visit("https://sindrebenjamin.github.io/social-media-client")
+      .wait(1000)
+      .get(".login-btn")
+      .click();
 
     cy.get("#loginEmail")
       .invoke("val", "sindbert99@stud.noroff.no")
