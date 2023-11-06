@@ -3,3 +3,5 @@
 [![Automated Testing](https://github.com/sindrebenjamin/social-media-client/actions/workflows/run-all-tests.yml/badge.svg)](https://github.com/sindrebenjamin/social-media-client/actions/workflows/run-all-tests.yml)
 
 #testwerwerwer
+
+hvorfor får jeg ikke lov å pushe?
