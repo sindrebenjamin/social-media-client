@@ -1,0 +1,1 @@
+![Workflow badge](https://github.com/sindrebenjamin/social-media-client/actions/workflows/static.yml)
